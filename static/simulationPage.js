@@ -111,7 +111,7 @@ function sendRecieveData(){
     which will be used in the graphic renderding.
     */
 
-    const url = 'http://scratchers.pythonanywhere.com/'; //deployment server
+    const url = 'https://scratchers.pythonanywhere.com/'; //deployment server
 
     fetch(url, {
     method: 'POST',
