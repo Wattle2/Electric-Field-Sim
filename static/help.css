@@ -1,0 +1,12 @@
+#content{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:15vh;
+}
+
+h3, h4, p{
+    text-align: center;
+}
+#equation{
+    margin-bottom: 80px;
+}

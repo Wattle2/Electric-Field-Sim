@@ -1,0 +1,56 @@
+html{
+    background-color: blanchedalmond;
+    font-family:Arial, Helvetica, sans-serif
+}
+#pageHeader{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    width:100%;
+    /* the height is 10% */
+    text-align: center;
+    background-color: beige;
+
+}
+.homebutton:hover{
+    cursor:pointer;
+    color: rgb(30, 2, 112);
+}
+#content{
+    /* height: 10000pt; */
+    margin-bottom: 20px;
+}
+
+#bottom{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: beige;
+}
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+  
+.custom-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+  
+  .custom-button:active {
+    background-color: #3e8e41;
+}
+  

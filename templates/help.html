@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>Electric Field Simulation Help</title>
+
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/help.css">
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+</head>
+<html>
+    <body>
+        <div id="pageHeader">
+            <h1  class ='homebutton' onclick="location.href='../index.html'">Electric Field Simulator</h1>
+        </div>
+        <div id ='content'>
+            <h3>About</h3>
+            <p>This is a web app that aids in visualizing a system of electric point charges and their electrostatic forces.<br>This app is  built on a 
+            scalable, object-oriented backend. Intended for versatile use as a tool to help learners conceptualize electrostatics,<br> as well as a 
+            calculator capable of handling large datasets.</p>
+            <h3>Navigation</h3>
+            <p><strong>The website title functions as a home button.</strong> Click the green buttons to move between parts of the simulation.</p>
+            <h3>Inputting Data</h3>
+            <p> When starting the simulation, the first input box will prompt for the number of charges present in the system. <br>
+                You will then be prompted to enter the charge value (in Coulombs) and their X and Y values with respect to <br>
+                an arbitrary origin. 1 graph unit is 1 meter. </p>
+            <h3>Graph</h3>
+            <p>The graph automatically normalizes all points to fit in the graph, but maintains relative distances
+                and directions. <br>The arrows represent the direction of the net force on each respective point charge.
+            </p>
+            <h3>Data Output</h3>
+            <p>Below the graph is a table of numerical data for each point charge, in the order they were inputted in. <br> The direction
+                measurement follows the unit circle, where 180 degrees points left, and 0 degrees points right. <br> All data is rounded 
+                to 5 decimal places.
+            </p>
+            <h3>Calculation Method</h3>
+            <p>The simulation uses Coulomb's law to find the force between two charges. This force then gets split into components and <br>
+                added/subtracted with the components from subsequent Coulomb's law calculations. For example, in a system of 3 charges,<br>
+                the components from charge 2 on charge 1 and charge 3 on charge 1 will be added together.
+            </p>
+            <div id="equation">
+                <h4>The Coulomb's law equation is given by:</h4>
+                $$ F = \frac{k \cdot |q_1 \cdot q_2|}{r^2} $$
+                <h4>Where:<br>
+                    k = 8.99 &times; 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup><br>
+                    q = Charge (in Coulombs)<br>
+                    r = Distance (in meters)
+                </h4>
+            </div>
+
+               
+        </div>
+        <div id="bottom">
+            By <a href="https://www.linkedin.com/in/aarjavjain200/"> Aarjav Jain</a>
+        </div>
+    </body>
+</html>

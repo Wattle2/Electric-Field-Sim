@@ -1,0 +1,61 @@
+#content{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 15vh;
+    max-width: 100vw;
+    /* border: 1px solid green; */
+}
+.custom-button{
+    font-size:13px;
+}
+.firstinput input{
+    margin-bottom:5px;
+}
+#chargeamount{
+    width: 200px;
+}
+.firstinput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inputscontainer{
+    margin-top: 3vh;
+}
+#simulation{
+    width: 100%;
+    height: 100%;
+}
+canvas{
+    background-color: aquamarine;
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin:0 auto;
+    /* margin-right:auto; */
+
+    /* opacity: .5; */
+}
+#datacontainer{
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: none;
+}
+#data{
+    margin: auto;
+    width: 80%;
+}
+#data tr{
+    width: 100%;
+    
+}
+#data th{
+    font-size: 1.25em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#data td{
+    padding: 20px;
+}

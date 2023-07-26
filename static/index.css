@@ -1,0 +1,19 @@
+.button-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-container td, .button-container th{
+    align-content: center;
+    padding-right: 100px;
+    padding-left:100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: auto;
+    font-size: 1.25em;
+}
+.custom-button{
+    font-size: 25px;
+}
+#content{
+    margin-top: 45vh;
+}

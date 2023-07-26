@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>Electric Field Simulation</title>
+    <script src="../static/simulationPage.js"></script>
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/simPage.css">
+</head>
+<html>
+    <body>
+        <div id="pageHeader">
+            <h1  class ='homebutton' onclick="location.href='../index.html'">Electric Field Simulator</h1>
+        </div>
+
+
+        <div id ='content'>
+
+            <div id="inputs" style="display: block;">
+                <div class="firstinput">
+                    <input type = "number" id="chargeamount" placeholder="Enter Amount of Point Charges">
+                    <button class="custom-button" onclick="submitInpt()">Enter Number</button>
+                </div>
+                <div id="inputscontainer"></div> <!-- populated in js-->
+            </div>
+            <div id="datacontainer">
+                <h2> Numerical Data for Each Charge:<br></h1>
+                <table id = "data">
+                    <thead>
+                        <tr>
+                            <th>Point</th>
+                            <th>Net Force (Newtons)</th>
+                            <th>Direction (Degrees)</th>
+                            <th>X position</th>
+                            <th>Y position</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- populated in js -->
+                    </tbody>
+                </table>
+                
+            </div>
+
+        </div>
+
+
+        <div id="bottom">
+            By <a href="https://www.linkedin.com/in/aarjavjain200/"> Aarjav Jain</a>
+        </div>
+    </body>
+</html>
