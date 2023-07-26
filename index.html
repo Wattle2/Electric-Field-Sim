@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      .title {
-        border-bottom: 10px solid #009879;
-      }
-    </stlye>
-    <title> MY WEBSITE! </title>
-    
-  </head>
-  <body>
-    <h1 class="title"> HEY GUYS! </h1>
-    <a href="html/test_page"> Look at this page! </a>
-    
-  </body>
+    <head>
+        <title>Electric Field Simulation Home</title>
+        <link rel="stylesheet" href="static/main.css">
+        <link rel="stylesheet" href="static/index.css">
+
+    </head>
+    <body>
+        <div id="pageHeader">
+            <h1 class ='homebutton' onclick="location.href='index.html'">Electric Field Simulator</h1>
+        </div>
+
+        <div id="content">
+                <table class="button-container">
+                    <thead>
+                        <tr>
+                            <th> Jump Right into the simulator </th>
+                            <th> Tutorial and Examples of use </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><button onclick = "location.href='templates/simulationPage.html'" class="custom-button"> Start Simulation </button></td>
+                            <td><button onclick="location.href='templates/help.html'" class="custom-button"> Help </button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+        </div>
+
+        <div id="bottom">
+             By <a href="https://www.linkedin.com/in/aarjavjain200/"> Aarjav Jain</a>
+        </div>
+    </body>
 </html>
+
